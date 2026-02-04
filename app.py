@@ -12,7 +12,7 @@ app.config['UPLOAD_FOLDER'] = 'uploads'
 os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 
 # Substitua pela sua chave da API Gemini
-genai.configure(api_key="AIzaSyCn3ni2TVexEQCFgsyuVBePTT-LgANKfRQ")
+genai.configure(api_key="xxxxxxxxxxxxxxxxxxxxxxxx")
 
 # =======================
 # 🧱 HTML INCORPORADO
@@ -198,3 +198,4 @@ def analisar():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
